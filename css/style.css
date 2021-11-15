@@ -1,0 +1,24 @@
+:root {
+    --main-bg: #abf0e9;
+    --main-fill: #63b7af;
+    --main-text: #162447;
+    --light-bg: #d4f3ef;
+    --accent: #ee8572;
+}
+
+html, body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--main-text);
+}
+
+div.jumbotron {
+    font-size: "5px"
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
